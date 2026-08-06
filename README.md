@@ -10,9 +10,9 @@ y descubres quién es más fuerte.
 - **17 personajes**: Goku, Vegeta, Gohan, Piccolo, Freezer, Cell, Majin Buu,
   Trunks del Futuro, Broly, Gotenks, Gogeta, Vegetto, Krilin, Beerus, Jiren,
   Whis y Zeno-sama.
-- **63 formas seleccionables** con su imagen propia: cada tarjeta tiene un
+- **64 formas seleccionables** con su imagen propia: cada tarjeta tiene un
   desplegable de transformaciones (por ejemplo, Goku va de Base a Ultra Instinto
-  pasando por SSJ, SSJ2, SSJ3, SSJ4 y Blue) y el avatar cambia al elegirla.
+  pasando por SSJ, SSJ2, SSJ3, SSJ4, Dios y Blue) y el avatar cambia al elegirla.
 - **Comparador**: seleccionas dos personajes, pulsas **¡LUCHAR!** y un modal
   declara al ganador según su nivel de poder, con cuántas veces supera al rival
   y barras de poder animadas (escala logarítmica). El ganador brilla con un aura
@@ -39,7 +39,7 @@ python3 -m http.server 8000   # → http://localhost:8000
 
 ```
 ├── index.html   # Toda la app: HTML + CSS + JS en un solo archivo
-├── img/         # 60 imágenes WebP (~2 MB): una por personaje y transformación
+├── img/         # 61 imágenes WebP (~2 MB): una por personaje y transformación
 ├── README.md
 └── .github/workflows/deploy-pages.yml   # Despliegue automático a GitHub Pages
 ```
