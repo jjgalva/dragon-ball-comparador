@@ -10,7 +10,7 @@ y descubres quién es más fuerte.
 - **17 personajes**: Goku, Vegeta, Gohan, Piccolo, Freezer, Cell, Majin Buu,
   Trunks del Futuro, Broly, Gotenks, Gogeta, Vegetto, Krilin, Beerus, Jiren,
   Whis y Zeno-sama.
-- **59 formas seleccionables** con su imagen propia: cada tarjeta tiene un
+- **63 formas seleccionables** con su imagen propia: cada tarjeta tiene un
   desplegable de transformaciones (por ejemplo, Goku va de Base a Ultra Instinto
   pasando por SSJ, SSJ2, SSJ3, SSJ4 y Blue) y el avatar cambia al elegirla.
 - **Comparador**: seleccionas dos personajes, pulsas **¡LUCHAR!** y un modal
@@ -39,7 +39,7 @@ python3 -m http.server 8000   # → http://localhost:8000
 
 ```
 ├── index.html   # Toda la app: HTML + CSS + JS en un solo archivo
-├── img/         # 56 imágenes WebP (~2 MB): una por personaje y transformación
+├── img/         # 60 imágenes WebP (~2 MB): una por personaje y transformación
 ├── README.md
 └── .github/workflows/deploy-pages.yml   # Despliegue automático a GitHub Pages
 ```
@@ -68,6 +68,9 @@ La página se publica automáticamente en GitHub Pages: el workflow
 
 Arte oficial de los juegos *Dragon Ball Z Dokkan Battle* y *Dragon Ball
 Legends* (© Bandai Namco / Akatsuki), obtenido de archivos de assets públicos y
-procesado (recorte + WebP 400px) para uso en esta página de fans.
+procesado (recorte + WebP 400px) para uso en esta página de fans. El Ultra Ego
+de Vegeta y el Black Freezer usan renders coloreados del manga de *Dragon Ball
+Super* alojados en Dragon Ball Wiki, ya que esas formas aún no tienen arte de
+juego equivalente.
 
 Página de fans sin ánimo de lucro. Dragon Ball es obra de Akira Toriyama.
