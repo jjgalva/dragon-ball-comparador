@@ -7,10 +7,11 @@ y descubres quién es más fuerte.
 
 ## Qué hace
 
-- **18 personajes**: Goku, Vegeta, Gohan, Piccolo, Freezer, Cell, Majin Buu,
-  Trunks del Futuro, Goten, Broly, Gotenks, Gogeta, Vegetto, Krilin, Beerus,
-  Jiren, Whis y Zeno-sama.
-- **66 formas seleccionables** con su imagen propia: cada tarjeta tiene un
+- **25 personajes**: Goku, Vegeta, Gohan, Piccolo, Freezer, Androide 17,
+  Androide 18, Cell, Cell Max, Majin Buu, Trunks del Futuro, Goten, Black Goku,
+  Zamasu, Omega Shenron, Broly, Gotenks, Gogeta, Vegetto, Krilin, Mr. Satán,
+  Beerus, Jiren, Whis y Zeno-sama.
+- **79 formas seleccionables** con su imagen propia: cada tarjeta tiene un
   desplegable de transformaciones (por ejemplo, Goku va de Base a Ultra Instinto
   pasando por SSJ, SSJ2, SSJ3, SSJ4, Dios y Blue) y el avatar cambia al elegirla.
 - **Comparador**: seleccionas dos personajes, pulsas **¡LUCHAR!** y un modal
@@ -18,8 +19,10 @@ y descubres quién es más fuerte.
   y barras de poder animadas (escala logarítmica). El ganador brilla con un aura
   dorada. Hay mensajes distintos según lo reñido del combate, y empate si los
   poderes coinciden.
-- Detalles con cariño: la fusión fallida de Gotenks (gordo, poder 500) y
-  Zeno-sama con poder 999.999.999.999 — puede borrar universos, no hay pelea.
+- Detalles con cariño: Mr. Satán con poder 5, la fusión fallida de Gotenks
+  (gordo, poder 500) y Zeno-sama con poder 999.999.999.999 — puede borrar
+  universos, no hay pelea. Los androides 17 y 18 tienen dos formas por época
+  (saga de Cell y Torneo del Poder), porque su nivel cambia por completo.
 
 ## Cómo se usa
 
@@ -39,7 +42,7 @@ python3 -m http.server 8000   # → http://localhost:8000
 
 ```
 ├── index.html   # Toda la app: HTML + CSS + JS en un solo archivo
-├── img/         # 63 imágenes WebP (~2 MB): una por personaje y transformación
+├── img/         # 76 imágenes WebP (~3 MB): una por personaje y transformación
 ├── README.md
 └── .github/workflows/deploy-pages.yml   # Despliegue automático a GitHub Pages
 ```
