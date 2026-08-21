@@ -7,11 +7,13 @@ y descubres quién es más fuerte.
 
 ## Qué hace
 
-- **25 personajes**: Goku, Vegeta, Gohan, Piccolo, Freezer, Androide 17,
-  Androide 18, Cell, Cell Max, Majin Buu, Trunks del Futuro, Goten, Black Goku,
-  Zamasu, Omega Shenron, Broly, Gotenks, Gogeta, Vegetto, Krilin, Mr. Satán,
-  Beerus, Jiren, Whis y Zeno-sama.
-- **79 formas seleccionables** con su imagen propia: cada tarjeta tiene un
+- **38 personajes**: Goku, Vegeta, Gohan, Piccolo, Raditz, Nappa, Bardock,
+  Freezer, Cooler, Androide 17, Androide 18, Cell, Cell Max, Majin Buu,
+  Trunks del Futuro, Goten, Black Goku, Zamasu, Baby, Omega Shenron, Broly,
+  Gotenks, Janemba, Gogeta, Vegetto, Maestro Roshi, Ten Shin Han, Yamcha,
+  Krilin, Mr. Satán, Hit, Kefla, Beerus, Champa, Jiren, Whis, Vados y
+  Zeno-sama.
+- **104 formas seleccionables** con su imagen propia: cada tarjeta tiene un
   desplegable de transformaciones (por ejemplo, Goku va de Base a Ultra Instinto
   pasando por SSJ, SSJ2, SSJ3, SSJ4, Dios y Blue) y el avatar cambia al elegirla.
 - **Comparador**: seleccionas dos personajes, pulsas **¡LUCHAR!** y un modal
@@ -42,7 +44,7 @@ python3 -m http.server 8000   # → http://localhost:8000
 
 ```
 ├── index.html   # Toda la app: HTML + CSS + JS en un solo archivo
-├── img/         # 76 imágenes WebP (~3 MB): una por personaje y transformación
+├── img/         # 101 imágenes WebP (~4 MB): una por personaje y transformación
 ├── README.md
 └── .github/workflows/deploy-pages.yml   # Despliegue automático a GitHub Pages
 ```
@@ -59,6 +61,10 @@ entrada en ese array. Nada más.
 Escala relativa inventada para el juego, inspirada en el manga, el anime y las
 guías oficiales (los "niveles de poder" canónicos dejaron de tener sentido tras
 la saga de Freezer 😄). Se editan en el campo `power` de cada forma.
+
+La parte baja sí respeta las cifras del scouter: Raditz 1.500 y Nappa 4.000 son
+los valores canónicos de la saga de los Saiyans, y sirven de ancla para el resto
+de personajes de la primera etapa.
 
 ## Publicación
 

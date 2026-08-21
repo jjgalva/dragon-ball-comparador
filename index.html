@@ -385,6 +385,28 @@ const CHARACTERS = [
     ],
   },
   {
+    id: 'raditz', name: 'Raditz', race: 'Saiyan', emoji: '🛸',
+    color: 'linear-gradient(135deg, #7f5539, #3c2317)',
+    forms: [
+      { name: 'Guerrero saiyan', power: 1500, img: 'raditz_base.webp' },
+    ],
+  },
+  {
+    id: 'nappa', name: 'Nappa', race: 'Saiyan', emoji: '💪',
+    color: 'linear-gradient(135deg, #dda15e, #7f4f24)',
+    forms: [
+      { name: 'Élite saiyan', power: 4000, img: 'nappa_base.webp' },
+    ],
+  },
+  {
+    id: 'bardock', name: 'Bardock', race: 'Saiyan', emoji: '🩸',
+    color: 'linear-gradient(135deg, #e5383b, #660708)',
+    forms: [
+      { name: 'Base', power: 12000, img: 'bardock_base.webp' },
+      { name: 'Super Saiyan', power: 440000, img: 'bardock_ssj.webp' },
+    ],
+  },
+  {
     id: 'frieza', name: 'Freezer', race: 'Raza de Frost', emoji: '❄️',
     color: 'linear-gradient(135deg, #cdb4db, #7b5ea7)',
     forms: [
@@ -395,6 +417,16 @@ const CHARACTERS = [
       { name: 'Forma final (100%)', power: 14000000, img: 'frieza_100.webp' },
       { name: 'Golden Freezer', power: 65000000, img: 'frieza_golden.webp' },
       { name: 'Black Freezer', power: 300000000, img: 'frieza_black.webp' },
+    ],
+  },
+  {
+    id: 'cooler', name: 'Cooler', race: 'Raza de Frost', emoji: '🧊',
+    color: 'linear-gradient(135deg, #ced4da, #495057)',
+    forms: [
+      { name: 'Forma base', power: 11000000, img: 'cooler_base.webp' },
+      { name: 'Forma final', power: 16000000, img: 'cooler_final.webp' },
+      { name: 'Metal Cooler', power: 26000000, img: 'cooler_metal.webp' },
+      { name: 'Golden Cooler', power: 68000000, img: 'cooler_golden.webp' },
     ],
   },
   {
@@ -476,6 +508,14 @@ const CHARACTERS = [
     ],
   },
   {
+    id: 'baby', name: 'Baby', race: 'Tsufuru (parásito)', emoji: '🦠',
+    color: 'linear-gradient(135deg, #e07a5f, #3d405b)',
+    forms: [
+      { name: 'Baby Vegeta', power: 7000000, img: 'baby_vegeta.webp' },
+      { name: 'Super Baby 2', power: 13000000, img: 'baby_super2.webp' },
+    ],
+  },
+  {
     id: 'omega', name: 'Omega Shenron', race: 'Dragón Oscuro', emoji: '🐉',
     color: 'linear-gradient(135deg, #ff6d00, #370617)',
     forms: [
@@ -503,6 +543,14 @@ const CHARACTERS = [
     ],
   },
   {
+    id: 'janemba', name: 'Janemba', race: 'Demonio', emoji: '👺',
+    color: 'linear-gradient(135deg, #fcbf49, #ae2012)',
+    forms: [
+      { name: 'Janemba', power: 6000000, img: 'janemba_base.webp' },
+      { name: 'Super Janemba', power: 15000000, img: 'janemba_super.webp' },
+    ],
+  },
+  {
     id: 'gogeta', name: 'Gogeta', race: 'Fusión', emoji: '🔥',
     color: 'linear-gradient(135deg, #f94144, #90429c)',
     forms: [
@@ -521,6 +569,30 @@ const CHARACTERS = [
     ],
   },
   {
+    id: 'roshi', name: 'Maestro Roshi', race: 'Humano', emoji: '🐢',
+    color: 'linear-gradient(135deg, #fb8500, #9a3412)',
+    forms: [
+      { name: 'Base', power: 350, img: 'roshi_base.webp' },
+      { name: 'Máxima Potencia', power: 4500, img: 'roshi_max.webp' },
+    ],
+  },
+  {
+    id: 'tien', name: 'Ten Shin Han', race: 'Humano', emoji: '👁️',
+    color: 'linear-gradient(135deg, #52796f, #1b3a4b)',
+    forms: [
+      { name: 'Base', power: 5200, img: 'tien_base.webp' },
+      { name: 'Kikoho', power: 85000, img: 'tien_kikoho.webp' },
+    ],
+  },
+  {
+    id: 'yamcha', name: 'Yamcha', race: 'Humano', emoji: '🐺',
+    color: 'linear-gradient(135deg, #f77f00, #6d2e46)',
+    forms: [
+      { name: 'Base', power: 4200, img: 'yamcha_base.webp' },
+      { name: 'Puño Lobo a máxima potencia', power: 65000, img: 'yamcha_max.webp' },
+    ],
+  },
+  {
     id: 'krillin', name: 'Krilin', race: 'Humano', emoji: '🟠',
     color: 'linear-gradient(135deg, #f77f00, #b35c00)',
     forms: [
@@ -536,11 +608,35 @@ const CHARACTERS = [
     ],
   },
   {
+    id: 'hit', name: 'Hit', race: 'Universo 6', emoji: '⏱️',
+    color: 'linear-gradient(135deg, #9f86c0, #231942)',
+    forms: [
+      { name: 'Base', power: 45000000, img: 'hit_base.webp' },
+      { name: 'Time-Skip a máxima potencia', power: 75000000, img: 'hit_max.webp' },
+    ],
+  },
+  {
+    id: 'kefla', name: 'Kefla', race: 'Fusión (Universo 6)', emoji: '💫',
+    color: 'linear-gradient(135deg, #eaff6b, #b5179e)',
+    forms: [
+      { name: 'Base', power: 40000000, img: 'kefla_base.webp' },
+      { name: 'Super Saiyan', power: 85000000, img: 'kefla_ssj.webp' },
+      { name: 'Super Saiyan 2', power: 160000000, img: 'kefla_ssj2.webp' },
+    ],
+  },
+  {
     id: 'beerus', name: 'Beerus', race: 'Dios de la Destrucción', emoji: '😾',
     color: 'linear-gradient(135deg, #7209b7, #3a0ca3)',
     forms: [
       { name: 'Relajado', power: 150000000, img: 'beerus_base.webp' },
       { name: 'En serio', power: 400000000, img: 'beerus_base.webp' },
+    ],
+  },
+  {
+    id: 'champa', name: 'Champa', race: 'Dios de la Destrucción', emoji: '🍖',
+    color: 'linear-gradient(135deg, #f4978e, #7b2cbf)',
+    forms: [
+      { name: 'Dios de la Destrucción del Universo 6', power: 140000000, img: 'champa_base.webp' },
     ],
   },
   {
@@ -556,6 +652,13 @@ const CHARACTERS = [
     color: 'linear-gradient(135deg, #48cae4, #0096c7)',
     forms: [
       { name: 'Ángel guía', power: 600000000, img: 'whis_base.webp' },
+    ],
+  },
+  {
+    id: 'vados', name: 'Vados', race: 'Ángel', emoji: '🔮',
+    color: 'linear-gradient(135deg, #ade8f4, #023e8a)',
+    forms: [
+      { name: 'Ángel del Universo 6', power: 620000000, img: 'vados_base.webp' },
     ],
   },
   {
