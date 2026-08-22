@@ -7,13 +7,15 @@ y descubres quién es más fuerte.
 
 ## Qué hace
 
-- **38 personajes**: Goku, Vegeta, Gohan, Piccolo, Raditz, Nappa, Bardock,
-  Freezer, Cooler, Androide 17, Androide 18, Cell, Cell Max, Majin Buu,
-  Trunks del Futuro, Goten, Black Goku, Zamasu, Baby, Omega Shenron, Broly,
-  Gotenks, Janemba, Gogeta, Vegetto, Maestro Roshi, Ten Shin Han, Yamcha,
-  Krilin, Mr. Satán, Hit, Kefla, Beerus, Champa, Jiren, Whis, Vados y
-  Zeno-sama.
-- **104 formas seleccionables** con su imagen propia: cada tarjeta tiene un
+- **56 personajes**: Goku, Vegeta, Gohan, Piccolo, Rey Piccolo, Raditz, Nappa,
+  Saibaman, Bardock, Turles, Freezer, Cooler, Frost, Dr. Gero, Androide 16,
+  Androide 17, Androide 18, Cell, Cell Max, Dabura, Babidi, Majin Buu, Uub,
+  Trunks del Futuro, Goten, Black Goku, Zamasu, Moro, Granolah, Baby,
+  Omega Shenron, Broly, Gotenks, Bojack, Janemba, Gogeta, Vegetto,
+  Maestro Roshi, Ten Shin Han, Chaoz, Yamcha, Yajirobe, Videl, Krilin,
+  Mr. Satán, Hit, Caulifla, Kale, Kefla, Beerus, Champa, Jiren, Toppo, Whis,
+  Vados y Zeno-sama.
+- **133 formas seleccionables** con su imagen propia: cada tarjeta tiene un
   desplegable de transformaciones (por ejemplo, Goku va de Base a Ultra Instinto
   pasando por SSJ, SSJ2, SSJ3, SSJ4, Dios y Blue) y el avatar cambia al elegirla.
 - **Comparador**: seleccionas dos personajes, pulsas **¡LUCHAR!** y un modal
@@ -21,10 +23,11 @@ y descubres quién es más fuerte.
   y barras de poder animadas (escala logarítmica). El ganador brilla con un aura
   dorada. Hay mensajes distintos según lo reñido del combate, y empate si los
   poderes coinciden.
-- Detalles con cariño: Mr. Satán con poder 5, la fusión fallida de Gotenks
-  (gordo, poder 500) y Zeno-sama con poder 999.999.999.999 — puede borrar
-  universos, no hay pelea. Los androides 17 y 18 tienen dos formas por época
-  (saga de Cell y Torneo del Poder), porque su nivel cambia por completo.
+- Detalles con cariño: Babidi con poder 200, Mr. Satán con 5, la fusión fallida
+  de Gotenks (gordo, poder 500) y Zeno-sama con 999.999.999.999 — puede borrar
+  universos, no hay pelea. El Androide 17 lleva una forma por época (saga de
+  Cell, Super 17 y Torneo del Poder) y el 18 dos, porque su nivel cambia por
+  completo entre una y otra.
 
 ## Cómo se usa
 
@@ -44,7 +47,7 @@ python3 -m http.server 8000   # → http://localhost:8000
 
 ```
 ├── index.html   # Toda la app: HTML + CSS + JS en un solo archivo
-├── img/         # 101 imágenes WebP (~4 MB): una por personaje y transformación
+├── img/         # 130 imágenes WebP (~5 MB): una por personaje y transformación
 ├── README.md
 └── .github/workflows/deploy-pages.yml   # Despliegue automático a GitHub Pages
 ```
@@ -78,8 +81,8 @@ La página se publica automáticamente en GitHub Pages: el workflow
 Arte oficial de los juegos *Dragon Ball Z Dokkan Battle* y *Dragon Ball
 Legends* (© Bandai Namco / Akatsuki), obtenido de archivos de assets públicos y
 procesado (recorte + WebP 400px) para uso en esta página de fans. El Ultra Ego
-de Vegeta y el Black Freezer usan renders coloreados del manga de *Dragon Ball
-Super* alojados en Dragon Ball Wiki, ya que esas formas aún no tienen arte de
-juego equivalente.
+de Vegeta, el Black Freezer, Moro y Granolah usan renders coloreados del manga
+de *Dragon Ball Super* alojados en Dragon Ball Wiki, ya que ni Dokkan Battle ni
+Legends tienen carta de ellos.
 
 Página de fans sin ánimo de lucro. Dragon Ball es obra de Akira Toriyama.
